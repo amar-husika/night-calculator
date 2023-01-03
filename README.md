@@ -1,2 +1,3 @@
-# night-calculator
-Windows app for calculating half and last third of night.
+# Night calculator
+
+![night-calculator](https://i.ibb.co/ZJFXMsz/night.jpg)
