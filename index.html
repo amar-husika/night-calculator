@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Night Calculator
+    </title>
+    <meta
+      name="description"
+      content="Calculate the midnight (half of night) and last third of night."
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="input">
+        <h2 class="magribtext">Sunset time</h2>
+        <input
+          class="magribinput"
+          type="time"
+          id="magrib"
+          name="magrib"
+          required
+        />
+        <h2 class="fajrtext">Dawn time</h2>
+        <input class="fajrinput" type="time" id="fajr" name="fajr" required />
+        <input
+          class="calculate"
+          id="calculate"
+          type="button"
+          value="Calculate"
+        />
+      </div>
+      <div class="results" id="results">
+        <h2 class="midnighttext">Midnight starts</h2>
+        <p class="midnight" id="midnight">0</p>
+        <h2 class="thirdtext">Last third of night starts</h2>
+        <p class="third" id="third">0</p>
+      </div>
+         </div>
+  
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.7/dayjs.min.js"
+      ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
