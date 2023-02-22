@@ -2,7 +2,7 @@
 
 Calculate midnight (half of night) and last third of night.
 
-[Online Calculator](https://amarhusika.netlify.app/night)
+[Online Calculator](https://amar-husika.github.io/night-calculator/)
 
 ![night-calculator](https://i.ibb.co/BGpWgJr/night-Calculator.png)
 
